@@ -36,3 +36,9 @@ Cara termudah untuk menerapkan aplikasi Next.js Anda adalah dengan menggunakan [
 Lihat [dokumentasi penerapan Next.js](https://nextjs.org/docs/app/building-your-application/deploying) kami untuk detail lebih lanjut.
 
 # frontend-travelhub
+
+## Penulis & Kontak
+
+- **Penulis:** Andi Muhammad Aliefrahman
+- **Github:** [aliefrahman](https://github.com/aliefrahman)
+- **Instagram:** [aliefrahman.id](https://instagram.com/aliefrahman.id) (follow me, maybe?)
