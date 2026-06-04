@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
-          <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
+          <div className="lg:col-span-1 flex flex-col items-center sm:items-start text-center sm:text-left">
+            <div className="flex items-center gap-2 mb-4 justify-center sm:justify-start">
               <div className="w-9 h-9 bg-linear-to-br from-primary to-accent rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">IT</span>
               </div>
@@ -19,7 +19,7 @@ export default function Footer() {
               Your gateway to unforgettable Indonesian adventures. Discover the beauty of the
               archipelago with our curated tours.
             </p>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center sm:justify-start">
               {["facebook", "instagram", "twitter", "youtube"].map((social) => (
                 <a
                   key={social}
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="text-center sm:text-left">
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2.5 text-sm">
               {["Home", "Tours", "Destinations", "About Us", "Contact"].map((link) => (
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
 
           {/* Categories */}
-          <div>
+          <div className="text-center sm:text-left">
             <h3 className="text-white font-semibold mb-4">Categories</h3>
             <ul className="space-y-2.5 text-sm">
               {["Adventure", "Beach & Islands", "Cultural & Heritage", "Diving & Snorkeling", "Trekking"].map(
@@ -65,18 +65,18 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="text-center sm:text-left">
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 justify-center sm:justify-start">
                 <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
                 Jl. Sudirman No. 123, Jakarta Pusat, Indonesia
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center gap-3 justify-center sm:justify-start">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
                 +62 21 1234 5678
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center gap-3 justify-center sm:justify-start">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
                 info@indonesiatour.com
               </li>
